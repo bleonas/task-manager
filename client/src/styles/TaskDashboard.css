@@ -1,0 +1,25 @@
+.task-dashboard {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin: 20px; 
+  }
+  
+
+.task-card {
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.task-card.done {
+  text-decoration: line-through;
+  color: gray; 
+}
+
+button {
+  margin: 5px; 
+}
